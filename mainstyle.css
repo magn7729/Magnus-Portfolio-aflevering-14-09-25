@@ -1,0 +1,205 @@
+body {
+    background: linear-gradient(to bottom, darkslategrey, dimgrey);
+    color: white;
+}
+
+.intro h1 {
+    margin-top: 10px;
+}
+
+.navigation nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style-type: none;
+    margin-left: 15px;
+    margin-top: 10px;
+    border: 2px solid dimgrey;
+    border-radius: 10px;
+    padding: 1rem 0;
+    width: 25%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    color:white;
+}
+
+
+.intro p {color:cadetblue;
+    display: flex;
+
+}
+
+.tresections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.profiltekst {
+    text-align: justify;
+    max-width: 30ch;
+    margin: 0 auto;
+}
+
+.profiltekst {
+    border: 2px solid whitesmoke;
+    padding: 1rem;
+    margin: 1rem 0;
+    background: linear-gradient(to bottom,darkslategrey);
+    border-radius: 10px;
+}
+.profiltekst {
+    line-height: 30px;
+}
+
+.erhvervspunker {
+    border: 2px solid whitesmoke;
+    padding: 1rem;
+    margin: 1rem 0;
+    background: linear-gradient(to bottom,darkslategrey);
+    border-radius: 10px;
+}
+
+.erhvervspunker li {
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+.uddannelsespunkter {
+    border: 2px solid whitesmoke;
+    padding: 1rem;
+    margin: 1rem 0;
+    background: linear-gradient(to bottom,darkslategrey);
+    border-radius: 10px;
+
+}
+
+.uddannelsespunkter li {
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+.topimage {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.topimage img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px darkgray;
+}
+
+.title {
+    margin-top: -20px;
+}
+
+.line-shift1 {
+    border: none;
+    height: 2px;
+    background: darkslategrey;
+    margin: 2rem 0;
+}
+
+.line-shift2 {
+    border: none;
+    height: 2px;
+    background: darkslategrey;
+    margin: 2rem 0;
+}
+
+.comp-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.competencies {
+    margin: 10px;
+    padding: 1rem;
+    border: 2px solid darkslategray;
+    border-radius: 10px;
+    background-color: darkslategrey;
+    border: 2px solid whitesmoke;
+}
+.competencies ul {
+    list-style-type: none;
+    line-height: 1.8;
+}
+
+.interests {
+    margin: 10px;
+    padding: 1rem;
+    border: 2px solid darkslategrey;
+    border-radius: 10px;
+    background-color: darkslategrey;
+    border: 2px solid whitesmoke;
+
+}
+
+.interests p {
+    text-align: justify;
+    max-width: 30ch;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+
+
+.tekst {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 125px;
+    background-color: grey;
+    width: 229px;
+    font-size: 1rem;
+    padding: 0.1px;
+    border: 2px;
+}
+
+footer {
+    padding: 1rem;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+footer ul {
+    list-style-type: none;
+}
+
+
+.brødtekst{
+    display: flex;
+    justify-content: center;
+}
+
+.linktiluddannelser {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
