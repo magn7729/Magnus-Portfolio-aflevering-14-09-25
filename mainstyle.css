@@ -3,8 +3,27 @@ body {
     color: white;
 }
 
+
+.topimage img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px darkgray;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .intro h1 {
     margin-top: 10px;
+}
+
+h1{color: cornflowerblue;
+    display: flex;
+    justify-content: center;
 }
 
 .navigation nav ul {
@@ -18,27 +37,25 @@ body {
     border: 2px solid dimgrey;
     border-radius: 10px;
     padding: 1rem 0;
-    width: 25%;
+    width: 35%;
 }
 
-* {
-    margin: 0;
-    padding: 0;
+.title {
+    margin-top: -20px;
 }
 
-h1{color: cornflowerblue;
+.topimage {
+    margin-top: 10px;
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
-.footer{
-    color:white;
-}
-
-
-.intro p {color:cadetblue;
-    display: flex;
-
+.line-shift1 {
+    border: none;
+    height: 2px;
+    background: darkslategrey;
+    margin: 2rem 0;
 }
 
 .tresections {
@@ -74,10 +91,6 @@ h1{color: cornflowerblue;
     border-radius: 10px;
 }
 
-.erhvervspunker li {
-    padding-bottom: 10px;
-    list-style-type: none;
-}
 
 .uddannelsespunkter {
     border: 2px solid whitesmoke;
@@ -93,31 +106,6 @@ h1{color: cornflowerblue;
     list-style-type: none;
 }
 
-.topimage {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.topimage img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 0 10px darkgray;
-}
-
-.title {
-    margin-top: -20px;
-}
-
-.line-shift1 {
-    border: none;
-    height: 2px;
-    background: darkslategrey;
-    margin: 2rem 0;
-}
 
 .line-shift2 {
     border: none;
@@ -125,6 +113,7 @@ h1{color: cornflowerblue;
     background: darkslategrey;
     margin: 2rem 0;
 }
+
 
 .comp-container {
     display: flex;
@@ -140,10 +129,12 @@ h1{color: cornflowerblue;
     background-color: darkslategrey;
     border: 2px solid whitesmoke;
 }
+
 .competencies ul {
     list-style-type: none;
     line-height: 1.8;
 }
+
 
 .interests {
     margin: 10px;
@@ -155,6 +146,7 @@ h1{color: cornflowerblue;
 
 }
 
+
 .interests p {
     text-align: justify;
     max-width: 30ch;
@@ -163,11 +155,52 @@ h1{color: cornflowerblue;
 }
 
 
-
-.tekst {
-    display: flex;
-    justify-content: center;
+.erhvervspunker li {
+    padding-bottom: 10px;
+    list-style-type: none;
 }
+
+
+.lineshift3 {
+    border: none;
+    height: 2px;
+    background: darkslategrey;
+    margin: 2rem 0;
+}
+
+.myworkhistory {
+    margin-top: 10px;
+    background-color: grey;
+    width: 229px;
+    font-size: 1rem;
+    padding: 0.1px;
+    border: 2px;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.lineshift4 {
+    border: none;
+    height: 2px;
+    background: darkslategrey;
+    margin: 2rem 0;
+}
+
+footer {
+    margin-top: 125px;
+    background-color: grey;
+    width: 229px;
+    font-size: 1rem;
+    padding: 0.1px;
+    border: 2px;
+}
+
+.footer{
+    color:white;
+}
+
 
 footer {
     margin-top: 125px;
@@ -181,25 +214,29 @@ footer {
 footer {
     padding: 1rem;
     border-radius: 15px;
-    margin-left: 5px;
-    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 5px;
 }
 footer ul {
     list-style-type: none;
 }
 
-
-.brødtekst{
-    display: flex;
-    justify-content: center;
+.myworkhistory {
+    margin-left: 15px;
+    margin-top: -5pxpx;
+    margin-bottom: -15px;
 }
 
-.linktiluddannelser {
-    display: flex;
-    justify-content: center;
+.myworkhistory a {
+    color: white;
 }
 
+.myworkhistory li {
+    list-style-type: none;
+}
 
-
-
+.myworkhistorictitle {
+    margin-left: 20px;
+}
 
